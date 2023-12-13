@@ -45,6 +45,7 @@ body {
     width: 90%;
     text-align: center;
     border: none;
+    transition: transform 500ms ease;
 }
 @media (min-width: 768px) {
     .boton {
@@ -53,6 +54,7 @@ body {
 }
 .boton:hover {
     cursor: pointer;
+    transform: scale(1.15);
 }
 
 .sombra {
@@ -79,6 +81,11 @@ img{
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+    transition: transform 500ms ease;
+    filter: drop-shadow(0px 1px 20px rgb(170, 99, 5));
+ }
+ .logohover:hover{
+    transform: scale(1.2);
  }
  .logos{
     padding: 0px 0px 0px 30px;

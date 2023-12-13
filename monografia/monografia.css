@@ -45,6 +45,7 @@ body {
     width: 90%;
     text-align: center;
     border: none;
+    transition: transform 500ms ease;
 }
 @media (min-width: 768px) {
     .boton {
@@ -53,6 +54,7 @@ body {
 }
 .boton:hover {
     cursor: pointer;
+    transform: scale(1.15);
 }
 
 .sombra {
@@ -77,6 +79,11 @@ img{
    width: 400px;
    margin-left: auto;
    margin-right: auto;
+   filter: drop-shadow(0px 10px 35px rgb(199, 109, 25));
+   transition: transform 500ms ease
+}
+.imageshover:hover{
+    transform: scale(1.2);
 }
 .logos{
     padding: 0px 0px 0px 30px;
@@ -230,6 +237,7 @@ h1,h2,h3 {
     justify-content: space-evenly;
     align-items: center;
     filter: drop-shadow(10px 10px 0px gold);
+    transition: transform 500ms ease
 }
 .servicio .iconos2 {
     height: 15rem;
@@ -240,16 +248,7 @@ h1,h2,h3 {
     justify-content: space-evenly;
     align-items: center;
     filter: drop-shadow(10px 10px 0px rgb(25, 187, 199));
-}
-.servicio .iconos3 {
-    height: 15rem;
-    width: 15rem;
-    background-color:black;
-    border-radius: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    filter: drop-shadow(10px 10px 0px rgb(199, 30, 123));
+    transition: transform 500ms ease
 }
 
 /** Contacto **/
