@@ -82,6 +82,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     transition: transform 500ms ease;
+    filter: drop-shadow(0px 10px 20px rgb(182, 104, 16));
  }
  .logotipohover:hover{
     transform: scale(1.2);
@@ -223,28 +224,40 @@ h1,h2,h3 {
     text-align:center;
 }
 .servicio .iconos1 {
-    height: 20rem;
-    width: 35rem;
+    height: 15rem;
+    width: 15rem;
+    background-color:black;
+    border-radius: 50%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     filter: drop-shadow(10px 10px 0px gold);
+    transition: transform 500ms ease
 }
 .servicio .iconos2 {
-    height: 20rem;
-    width: 35rem;
+    height: 15rem;
+    width: 15rem;
+    background-color:black;
+    border-radius: 50%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     filter: drop-shadow(10px 10px 0px rgb(25, 187, 199));
+    transition: transform 500ms ease
 }
 .servicio .iconos3 {
-    height: 20rem;
-    width: 35rem;
+    height: 15rem;
+    width: 15rem;
+    background-color:black;
+    border-radius: 50%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    transition: transform 500ms ease;
     filter: drop-shadow(10px 10px 0px rgb(199, 30, 123));
+}
+.imageshover:hover{
+    transform: scale(1.2);
 }
 /** Contacto **/
 .formulario {
