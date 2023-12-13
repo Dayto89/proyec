@@ -40,11 +40,14 @@ img{
 }
 .logotipo1{
     display: grid;
-    width: 200px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
     grid-template-columns: repeat(2, 1fr);
  }
+ .logos{
+    padding: 0px 0px 0px 30px;
+}
 .boton {
     background-color: var(--secundario);
     color: var(--blanco);

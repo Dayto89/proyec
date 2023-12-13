@@ -75,7 +75,7 @@ img{
  }
 .logotipo1{
     display: grid;
-    width: 200px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
     grid-template-columns: repeat(2, 1fr);
@@ -86,6 +86,9 @@ img{
     margin-left: auto;
     margin-right: auto;
  }
+ .logos{
+    padding: 0px 0px 0px 30px;
+}
 /* Tipografia */
 h1 {
     font-size: 3.8rem;
@@ -207,8 +210,7 @@ h1,h2,h3 {
 
 .servicio {
     font-size: 20px;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 .servicio h3 {
     color: blak;
